@@ -6,5 +6,5 @@ RUN mkdir /opt/code
 RUN mkdir /opt/requirements
 WORKDIR /opt/code
 
-ADD requirements /opt/requirements
-RUN pip install -r /opt/requirements/production.txt
+COPY ./requirements.txt /opt/requirements.txt
+RUN pip install -r /opt/requirements.txt

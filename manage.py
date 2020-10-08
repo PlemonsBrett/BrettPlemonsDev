@@ -20,7 +20,7 @@ def setenv(variable, default):
 setenv("APPLICATION_CONFIG", "development")
 
 APPLICATION_CONFIG_PATH = "config"
-DOCKER_PATH = "docker"
+# DOCKER_PATH = "docker"
 
 
 def app_config_file(config):
@@ -28,7 +28,7 @@ def app_config_file(config):
 
 
 def docker_compose_file(config):
-    return os.path.join(DOCKER_PATH, f"{config}.yml")
+    return os.path.join("./", f"docker-compose.yml")
 
 
 def configure_app(config):
