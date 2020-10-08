@@ -58,3 +58,6 @@ celerybeat.pid
 venv/
 .venv
 venv.bak/
+
+# IDE configuration
+.idea/
