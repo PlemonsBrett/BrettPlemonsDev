@@ -1,5 +1,0 @@
-Flask
-flask-sqlalchemy
-psycopg2
-flask-migrate
-gunicorn

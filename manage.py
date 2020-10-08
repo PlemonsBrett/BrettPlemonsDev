@@ -28,7 +28,7 @@ def app_config_file(config):
 
 
 def docker_compose_file(config):
-    return os.path.join("./", f"docker-compose.yml")
+    return os.path.join("docker-compose.yml")
 
 
 def configure_app(config):
